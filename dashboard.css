@@ -1,0 +1,30 @@
+.tableStyle{
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    width: 70%;
+    border-radius: 10px 10px 0px 0px;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.10);
+}
+.tableStyle thead tr{
+    background-color: #22744e;
+    color: #ffffff;
+    text-align: left;
+}
+.tableStyle th,
+.tableStyle td {
+    padding: 15px 15px;
+}
+.tableStyle tbody tr {
+    border-bottom: thin solid #dddddd;
+}
+
+.tableStyle tbody tr:nth-of-type(even) {
+    background-color: ;
+}
+
+.tableStyle tbody tr:last-of-type {
+    border-bottom: thin solid #009879;
+}
