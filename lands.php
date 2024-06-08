@@ -20,7 +20,7 @@ $result = mysqli_query($connection, $sql);
 </head>
 <body>
     <center class="headingL">
-    <h1>Lands</h1>
+    <h1>Lands Page</h1>
     </center>
 <?php
     while($record = mysqli_fetch_assoc($result)){
